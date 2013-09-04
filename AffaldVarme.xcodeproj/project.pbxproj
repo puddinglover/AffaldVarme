@@ -1,0 +1,452 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		97516C7C17D7361A00FA796C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97516C7B17D7361A00FA796C /* UIKit.framework */; };
+		97516C7E17D7361A00FA796C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97516C7D17D7361A00FA796C /* Foundation.framework */; };
+		97516C8017D7361A00FA796C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97516C7F17D7361A00FA796C /* CoreGraphics.framework */; };
+		97516C8617D7361A00FA796C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 97516C8417D7361A00FA796C /* InfoPlist.strings */; };
+		97516C8817D7361A00FA796C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 97516C8717D7361A00FA796C /* main.m */; };
+		97516C8C17D7361A00FA796C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 97516C8B17D7361A00FA796C /* AppDelegate.m */; };
+		97516C8E17D7361A00FA796C /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 97516C8D17D7361A00FA796C /* Default.png */; };
+		97516C9017D7361A00FA796C /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 97516C8F17D7361A00FA796C /* Default@2x.png */; };
+		97516C9217D7361A00FA796C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 97516C9117D7361A00FA796C /* Default-568h@2x.png */; };
+		97516C9A17D7361A00FA796C /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97516C9917D7361A00FA796C /* SenTestingKit.framework */; };
+		97516C9B17D7361A00FA796C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97516C7B17D7361A00FA796C /* UIKit.framework */; };
+		97516C9C17D7361A00FA796C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97516C7D17D7361A00FA796C /* Foundation.framework */; };
+		97516CA417D7361A00FA796C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 97516CA217D7361A00FA796C /* InfoPlist.strings */; };
+		97516CA717D7361A00FA796C /* AffaldVarmeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 97516CA617D7361A00FA796C /* AffaldVarmeTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		97516C9D17D7361A00FA796C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 97516C7017D7361A00FA796C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 97516C7717D7361A00FA796C;
+			remoteInfo = AffaldVarme;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		97516C7817D7361A00FA796C /* AffaldVarme.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AffaldVarme.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		97516C7B17D7361A00FA796C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		97516C7D17D7361A00FA796C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		97516C7F17D7361A00FA796C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		97516C8317D7361A00FA796C /* AffaldVarme-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AffaldVarme-Info.plist"; sourceTree = "<group>"; };
+		97516C8517D7361A00FA796C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		97516C8717D7361A00FA796C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		97516C8917D7361A00FA796C /* AffaldVarme-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AffaldVarme-Prefix.pch"; sourceTree = "<group>"; };
+		97516C8A17D7361A00FA796C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		97516C8B17D7361A00FA796C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		97516C8D17D7361A00FA796C /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		97516C8F17D7361A00FA796C /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		97516C9117D7361A00FA796C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		97516C9817D7361A00FA796C /* AffaldVarmeTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AffaldVarmeTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		97516C9917D7361A00FA796C /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		97516CA117D7361A00FA796C /* AffaldVarmeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AffaldVarmeTests-Info.plist"; sourceTree = "<group>"; };
+		97516CA317D7361A00FA796C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		97516CA517D7361A00FA796C /* AffaldVarmeTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AffaldVarmeTests.h; sourceTree = "<group>"; };
+		97516CA617D7361A00FA796C /* AffaldVarmeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AffaldVarmeTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		97516C7517D7361A00FA796C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97516C7C17D7361A00FA796C /* UIKit.framework in Frameworks */,
+				97516C7E17D7361A00FA796C /* Foundation.framework in Frameworks */,
+				97516C8017D7361A00FA796C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97516C9417D7361A00FA796C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97516C9A17D7361A00FA796C /* SenTestingKit.framework in Frameworks */,
+				97516C9B17D7361A00FA796C /* UIKit.framework in Frameworks */,
+				97516C9C17D7361A00FA796C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		97516C6F17D7361A00FA796C = {
+			isa = PBXGroup;
+			children = (
+				97516C8117D7361A00FA796C /* AffaldVarme */,
+				97516C9F17D7361A00FA796C /* AffaldVarmeTests */,
+				97516C7A17D7361A00FA796C /* Frameworks */,
+				97516C7917D7361A00FA796C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		97516C7917D7361A00FA796C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				97516C7817D7361A00FA796C /* AffaldVarme.app */,
+				97516C9817D7361A00FA796C /* AffaldVarmeTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		97516C7A17D7361A00FA796C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				97516C7B17D7361A00FA796C /* UIKit.framework */,
+				97516C7D17D7361A00FA796C /* Foundation.framework */,
+				97516C7F17D7361A00FA796C /* CoreGraphics.framework */,
+				97516C9917D7361A00FA796C /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		97516C8117D7361A00FA796C /* AffaldVarme */ = {
+			isa = PBXGroup;
+			children = (
+				97516C8A17D7361A00FA796C /* AppDelegate.h */,
+				97516C8B17D7361A00FA796C /* AppDelegate.m */,
+				97516C8217D7361A00FA796C /* Supporting Files */,
+			);
+			path = AffaldVarme;
+			sourceTree = "<group>";
+		};
+		97516C8217D7361A00FA796C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				97516C8317D7361A00FA796C /* AffaldVarme-Info.plist */,
+				97516C8417D7361A00FA796C /* InfoPlist.strings */,
+				97516C8717D7361A00FA796C /* main.m */,
+				97516C8917D7361A00FA796C /* AffaldVarme-Prefix.pch */,
+				97516C8D17D7361A00FA796C /* Default.png */,
+				97516C8F17D7361A00FA796C /* Default@2x.png */,
+				97516C9117D7361A00FA796C /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		97516C9F17D7361A00FA796C /* AffaldVarmeTests */ = {
+			isa = PBXGroup;
+			children = (
+				97516CA517D7361A00FA796C /* AffaldVarmeTests.h */,
+				97516CA617D7361A00FA796C /* AffaldVarmeTests.m */,
+				97516CA017D7361A00FA796C /* Supporting Files */,
+			);
+			path = AffaldVarmeTests;
+			sourceTree = "<group>";
+		};
+		97516CA017D7361A00FA796C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				97516CA117D7361A00FA796C /* AffaldVarmeTests-Info.plist */,
+				97516CA217D7361A00FA796C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		97516C7717D7361A00FA796C /* AffaldVarme */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97516CAA17D7361A00FA796C /* Build configuration list for PBXNativeTarget "AffaldVarme" */;
+			buildPhases = (
+				97516C7417D7361A00FA796C /* Sources */,
+				97516C7517D7361A00FA796C /* Frameworks */,
+				97516C7617D7361A00FA796C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AffaldVarme;
+			productName = AffaldVarme;
+			productReference = 97516C7817D7361A00FA796C /* AffaldVarme.app */;
+			productType = "com.apple.product-type.application";
+		};
+		97516C9717D7361A00FA796C /* AffaldVarmeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97516CAD17D7361A00FA796C /* Build configuration list for PBXNativeTarget "AffaldVarmeTests" */;
+			buildPhases = (
+				97516C9317D7361A00FA796C /* Sources */,
+				97516C9417D7361A00FA796C /* Frameworks */,
+				97516C9517D7361A00FA796C /* Resources */,
+				97516C9617D7361A00FA796C /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				97516C9E17D7361A00FA796C /* PBXTargetDependency */,
+			);
+			name = AffaldVarmeTests;
+			productName = AffaldVarmeTests;
+			productReference = 97516C9817D7361A00FA796C /* AffaldVarmeTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		97516C7017D7361A00FA796C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Andreas Nuppenau";
+			};
+			buildConfigurationList = 97516C7317D7361A00FA796C /* Build configuration list for PBXProject "AffaldVarme" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 97516C6F17D7361A00FA796C;
+			productRefGroup = 97516C7917D7361A00FA796C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				97516C7717D7361A00FA796C /* AffaldVarme */,
+				97516C9717D7361A00FA796C /* AffaldVarmeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		97516C7617D7361A00FA796C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97516C8617D7361A00FA796C /* InfoPlist.strings in Resources */,
+				97516C8E17D7361A00FA796C /* Default.png in Resources */,
+				97516C9017D7361A00FA796C /* Default@2x.png in Resources */,
+				97516C9217D7361A00FA796C /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97516C9517D7361A00FA796C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97516CA417D7361A00FA796C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		97516C9617D7361A00FA796C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		97516C7417D7361A00FA796C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97516C8817D7361A00FA796C /* main.m in Sources */,
+				97516C8C17D7361A00FA796C /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97516C9317D7361A00FA796C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97516CA717D7361A00FA796C /* AffaldVarmeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		97516C9E17D7361A00FA796C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 97516C7717D7361A00FA796C /* AffaldVarme */;
+			targetProxy = 97516C9D17D7361A00FA796C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		97516C8417D7361A00FA796C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				97516C8517D7361A00FA796C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		97516CA217D7361A00FA796C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				97516CA317D7361A00FA796C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		97516CA817D7361A00FA796C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		97516CA917D7361A00FA796C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		97516CAB17D7361A00FA796C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AffaldVarme/AffaldVarme-Prefix.pch";
+				INFOPLIST_FILE = "AffaldVarme/AffaldVarme-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		97516CAC17D7361A00FA796C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AffaldVarme/AffaldVarme-Prefix.pch";
+				INFOPLIST_FILE = "AffaldVarme/AffaldVarme-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		97516CAE17D7361A00FA796C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AffaldVarme.app/AffaldVarme";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AffaldVarme/AffaldVarme-Prefix.pch";
+				INFOPLIST_FILE = "AffaldVarmeTests/AffaldVarmeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		97516CAF17D7361A00FA796C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AffaldVarme.app/AffaldVarme";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AffaldVarme/AffaldVarme-Prefix.pch";
+				INFOPLIST_FILE = "AffaldVarmeTests/AffaldVarmeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		97516C7317D7361A00FA796C /* Build configuration list for PBXProject "AffaldVarme" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97516CA817D7361A00FA796C /* Debug */,
+				97516CA917D7361A00FA796C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		97516CAA17D7361A00FA796C /* Build configuration list for PBXNativeTarget "AffaldVarme" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97516CAB17D7361A00FA796C /* Debug */,
+				97516CAC17D7361A00FA796C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		97516CAD17D7361A00FA796C /* Build configuration list for PBXNativeTarget "AffaldVarmeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97516CAE17D7361A00FA796C /* Debug */,
+				97516CAF17D7361A00FA796C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 97516C7017D7361A00FA796C /* Project object */;
+}
